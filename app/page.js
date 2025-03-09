@@ -146,21 +146,7 @@ export default function Home() {
             Hello, I&rsquo;m Forhad Hossain!
             <br />
             <br />
-            I&rsquo;m a passionate Front-End Developer with expertise in HTML,
-            CSS, JavaScript, and React. I love transforming ideas into visually
-            appealing, user-friendly, and high-performance web applications. My
-            focus is on building responsive, interactive, and scalable web
-            experiences that enhance user engagement. With a strong foundation
-            in modern front-end technologies, I continuously strive to learn,
-            adapt, and innovate in this ever-evolving industry. Whether
-            it&rsquo;s crafting elegant UI designs, optimizing performance, or
-            solving complex coding challenges, I enjoy every aspect of web
-            development. I am always eager to explore new tools, frameworks, and
-            best practices to enhance my skills and stay ahead in the field. My
-            goal is to contribute to impactful projects that make a difference
-            while collaborating with like-minded professionals to create
-            seamless digital experiences. Let’s build something amazing
-            together!
+        I'm a passionate Photo Editor with expertise in shadow creation, color correction, retouching, and neck joint techniques. I love enhancing images to create visually stunning, high-quality results that capture attention. My focus is on delivering precise, detailed, and natural-looking edits that align with client expectations. With a strong foundation in photo manipulation and digital enhancement, I continuously strive to learn new techniques and adapt to the evolving industry. Whether it’s restoring old photos, perfecting product images, or refining portraits, I take pride in every detail. I am always eager to explore new tools and creative approaches to elevate my work. My goal is to contribute to impactful projects while collaborating with professionals to create flawless visual experiences. Let’s bring your images to life!
           </p>
         </motion.div>
         <motion.div
