@@ -143,9 +143,9 @@ export default function Home() {
             Hello, I&rsquo;m Forhad Hossain!
             <br />
             <br />
-         I’m a passionate Photo Editor with expertise in shadow creation, color correction, retouching, and neck joint techniques. I specialize in delivering high-quality, visually appealing images for e-commerce, fashion, and product photography. With a keen eye for detail and a commitment to perfection, I ensure that every image meets the highest standards. I thrive in fast-paced environments, handling batch editing and meeting tight deadlines while maintaining consistency and quality. Continuously learning and adapting to new tools and techniques, I strive to enhance workflow efficiency and create stunning visuals. Excited to collaborate on projects that bring images to life!
+         I&rsquo;m a passionate Photo Editor with expertise in shadow creation, color correction, retouching, and neck joint techniques. I specialize in delivering high-quality, visually appealing images for e-commerce, fashion, and product photography. With a keen eye for detail and a commitment to perfection, I ensure that every image meets the highest standards. I thrive in fast-paced environments, handling batch editing and meeting tight deadlines while maintaining consistency and quality. Continuously learning and adapting to new tools and techniques, I strive to enhance workflow efficiency and create stunning visuals. Excited to collaborate on projects that bring images to life!
 
-Let me know if you'd like any refinements!
+Let me know if you&rsquo;d like any refinements!
           </p>
         </motion.div>
         <motion.div
