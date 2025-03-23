@@ -143,21 +143,9 @@ export default function Home() {
             Hello, I&rsquo;m Forhad Hossain!
             <br />
             <br />
-            I&rsquo;m a passionate Front-End Developer with expertise in HTML,
-            CSS, JavaScript, and React. I love transforming ideas into visually
-            appealing, user-friendly, and high-performance web applications. My
-            focus is on building responsive, interactive, and scalable web
-            experiences that enhance user engagement. With a strong foundation
-            in modern front-end technologies, I continuously strive to learn,
-            adapt, and innovate in this ever-evolving industry. Whether
-            it&rsquo;s crafting elegant UI designs, optimizing performance, or
-            solving complex coding challenges, I enjoy every aspect of web
-            development. I am always eager to explore new tools, frameworks, and
-            best practices to enhance my skills and stay ahead in the field. My
-            goal is to contribute to impactful projects that make a difference
-            while collaborating with like-minded professionals to create
-            seamless digital experiences. Let’s build something amazing
-            together!
+            I&rsquo;m a passionate Photo Editor with expertise in shadow creation, color correction, retouching, and neck joint techniques. I specialize in delivering high-quality, visually appealing images for e-commerce, fashion, and product photography. With a keen eye for detail and a commitment to perfection, I ensure that every image meets the highest standards. I thrive in fast-paced environments, handling batch editing and meeting tight deadlines while maintaining consistency and quality. Continuously learning and adapting to new tools and techniques, I strive to enhance workflow efficiency and create stunning visuals. Excited to collaborate on projects that bring images to life!
+
+Let me know if you&rsquo;d like any refinements!
           </p>
         </motion.div>
         <motion.div
