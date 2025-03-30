@@ -69,7 +69,7 @@ export default function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: false, amount: 0.5 }}
-          className="flex items-center justify-center h-screen bg-white scroll-auto"
+          className="flex items-center justify-center h-screen  scroll-auto"
         >
           <div className="text-center">
             <h1 className="text-5xl md:text-[120px] font-bold">
