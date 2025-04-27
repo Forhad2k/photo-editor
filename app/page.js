@@ -15,7 +15,11 @@ import { useState, useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Contact from "./Contact/page";
+import Slider from "./Slider/page";
+
+
 gsap.registerPlugin(ScrollTrigger);
+
 
 const experiences = [
   {
@@ -194,12 +198,20 @@ export default function Home() {
             SEE <span className="text-[#ADB5BD]">WORK</span>
           </h1>
 
+  
+
           <p className="text-lg mt-4 text-center ">
             Take a look at our work and see our image editing mastery in action.
             Whether it’s removing backgrounds, shadows, or anything else you
             don’t want, we do it quickly and affordably. Give us a try today!
           </p>
         </motion.div>
+
+        <div>
+            <Slider />
+            
+          </div>
+  
 
         <h1 className="font-bold text-3xl p-7 text-center">
           Background Remove
