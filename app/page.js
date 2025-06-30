@@ -16,10 +16,10 @@ import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Contact from "./Contact/page";
 import Slider from "./Slider/page";
-
+import Webbanner from "./Web-banner/page";
+import Product from "./Product/page";
 
 gsap.registerPlugin(ScrollTrigger);
-
 
 const experiences = [
   {
@@ -47,7 +47,6 @@ const experiences = [
 ];
 
 export default function Home() {
- 
   const textRef = useRef(null);
 
   useEffect(() => {
@@ -92,46 +91,46 @@ export default function Home() {
               repeat={Infinity}
               className="text-xl md:text-[60px] mt-2"
             />
-         <motion.div
-  initial={{ opacity: 0, x: 150 }}
-  whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.8, ease: "easeOut" }}
-  viewport={{ once: false, amount: 0.5 }}
-  className="flex justify-center gap-4 mt-4 text-2xl"
->
-  <a
-    href="https://www.linkedin.com/in/fahad-hassan-069493202/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 hover:text-blue-400"
-  >
-    <FaLinkedin />
-  </a>
-  <a
-    href="https://github.com/Forhad2k"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-gray-400 hover:text-white"
-  >
-    <FaGithub />
-  </a>
-  <a
-    href="https://www.facebook.com/farhar.hossain"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-600 hover:text-blue-500"
-  >
-    <FaFacebook />
-  </a>
-  <a
-    href="mailto:fh594694@gmail.com"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-red-500 hover:text-red-400"
-  >
-    <FaEnvelope />
-  </a>
-</motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 150 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.8, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.5 }}
+              className="flex justify-center gap-4 mt-4 text-2xl"
+            >
+              <a
+                href="https://www.linkedin.com/in/fahad-hassan-069493202/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:text-blue-400"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="https://github.com/Forhad2k"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-white"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://www.facebook.com/farhar.hossain"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-500"
+              >
+                <FaFacebook />
+              </a>
+              <a
+                href="mailto:fh594694@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-red-500 hover:text-red-400"
+              >
+                <FaEnvelope />
+              </a>
+            </motion.div>
 
             <div className="mt-6">
               <Link to="footer" smooth={true} duration={5000}>
@@ -198,8 +197,6 @@ export default function Home() {
             SEE <span className="text-[#ADB5BD]">WORK</span>
           </h1>
 
-  
-
           <p className="text-lg mt-4 text-center ">
             Take a look at our work and see our image editing mastery in action.
             Whether it’s removing backgrounds, shadows, or anything else you
@@ -207,15 +204,20 @@ export default function Home() {
           </p>
         </motion.div>
 
+   <div>
+          <Product />
+        </div>
+       
+        
         <div>
-            <Slider />
-            
-          </div>
-  
+          <Webbanner />
+        </div>
+         <div>
+          <Slider />
+        </div>
+     
 
-        <h1 className="font-bold text-3xl p-7 text-center">
-          Background Remove
-        </h1>
+        <h1 className="font-bold text-3xl p-7 text-center"> Background Remove</h1>
 
         {/* Grid Section */}
         <div className="grid w-full pb-16 pt-10 h-auto items-center m-auto gap-7 sm:grid-cols-2 md:grid-cols-3 px-4">
@@ -566,8 +568,8 @@ export default function Home() {
             Contact Me
           </motion.h1>
           <Contact />
-    </div>
-    
+        </div>
+
         <footer
           id="footer"
           className="bg-gray-800 text-white py-6 flex justify-center items-center"

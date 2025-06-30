@@ -1,0 +1,34 @@
+import React from 'react'
+import Image from 'next/image'
+
+function page() {
+    const Images = [
+        '/product/1.jpg',
+        '/product/2.jpg',
+        '/product/3.jpg',
+      ];
+  return (
+    <div className=''>     
+    <h1 className='text-center text-5xl my-12 font-bold'>Product Design</h1>       
+        <div className=" flex flex-wrap justify-center gap-4 p-4">
+      {Images.map((image, index) => (
+        <div
+          key={index}
+          className="w-150 h-150 flex flex-col transition-transform duration-500 hover:scale-120 items-center justify-center bg-gray-200"
+        >
+          <Image
+          width={1000}
+          height={1000}
+            src={image}
+            alt={`Image ${index + 1}`}
+            className="w-full h-full object-cover"
+          />
+        </div>
+      ))}
+    </div>
+    </div>
+    
+  )
+}
+
+export default page
