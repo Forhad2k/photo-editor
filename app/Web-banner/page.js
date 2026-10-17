@@ -1,45 +1,26 @@
-import React, { useState } from 'react';
-import Image from 'next/image';
+import { BannerGallery } from "../components/portfolio/ImageGalleries";
 
-const Gallery = () => {
-    const [mainImage, setMainImage] = useState("/web-banner/1.jpg");
-
-    const thumbnails = [
-        '/web-banner/1.jpg',
-      "/web-banner/2.jpg",
-      "/web-banner/3.jpg",
-
-    ];
-
-    const handleThumbnailClick = (src) => {
-        setMainImage(src);
-    };
-
-    return (
-      <>
-        <h1 className="text-center text-5xl my-12 font-bold">Web Banner Design</h1>
-        <p className="text-center text-lg mb-8">Click on the thumbnails to change the main image</p>
-        <div className="flex flex-col items-center space-y-4">
-            <div className="w-full max-w-3xl">
-                <Image  width={500} height={500} id="main-image" src={mainImage} className="w-full rounded-lg" alt="Main Image" />
-            </div>
-
-            <div className="grid grid-cols-4 max-w-3xl gap-4" id="thumbnail-container">
-                {thumbnails.map((thumb, index) => (
-                    <Image 
-                        width={500} 
-                        height={500} 
-                        key={index} 
-                        src={thumb} 
-                        className="thumb rounded-lg md:h-24 h-14 object-cover cursor-pointer hover:opacity-80" 
-                        alt={`Thumb ${index + 1}`}
-                        onClick={() => handleThumbnailClick(thumb)}
-                    />
-                ))}
-            </div>
-        </div>
-        </>
-    );
+export const metadata = {
+  title: "Web Banner Design | Forhad Hossain",
+  description: "Selected web banner design work by Forhad Hossain.",
 };
 
-export default Gallery;
+export default function WebBannerPage() {
+  return (
+    <main className="min-h-screen bg-[#f6f5f0] px-6 py-16 text-[#20211e] md:px-12 md:py-24">
+      <section className="mx-auto w-full max-w-5xl">
+        <p className="text-[10px] font-bold tracking-[0.15em] text-[#77796f]">
+          SELECTED WORK / WEB & RETAIL
+        </p>
+        <h1 className="mb-4 mt-4 text-4xl font-semibold tracking-[-0.06em] md:text-6xl">
+          Web banner design
+        </h1>
+        <p className="mb-10 max-w-xl text-sm leading-7 text-[#6e6f67]">
+          A selection of banner concepts for digital campaigns and storefronts.
+          Choose a thumbnail to preview each design.
+        </p>
+        <BannerGallery />
+      </section>
+    </main>
+  );
+}
