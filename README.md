@@ -1,7 +1,7 @@
 # Forhad Hossain — Photo Editing Portfolio
 
 A responsive Next.js portfolio for showcasing photo editing, product design,
-poster, and web-banner work.
+and web-banner work.
 
 ## Run locally
 

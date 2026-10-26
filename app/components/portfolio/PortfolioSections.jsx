@@ -10,7 +10,6 @@ import BeforeAfter from "./BeforeAfter";
 import ContactForm from "./ContactForm";
 import {
   BannerGallery,
-  PosterGallery,
   ProductGallery,
 } from "./ImageGalleries";
 import { experiences, processSteps, services } from "../../data/portfolio";
@@ -188,10 +187,7 @@ export function Work() {
         <ShowcasePanel number="01" label="E-COMMERCE" title="Product imagery">
           <ProductGallery />
         </ShowcasePanel>
-        <ShowcasePanel number="02" label="CAMPAIGN CREATIVE" title="Posters & visual stories" tinted>
-          <PosterGallery />
-        </ShowcasePanel>
-        <ShowcasePanel number="03" label="WEB & RETAIL" title="Web banner design">
+        <ShowcasePanel number="02" label="WEB & RETAIL" title="Web banner design" tinted>
           <BannerGallery />
         </ShowcasePanel>
       </div>
